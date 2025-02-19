@@ -1,0 +1,14 @@
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\bin\Debug\net9.0\Лаба 1.exe
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\bin\Debug\net9.0\Лаба 1.deps.json
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\bin\Debug\net9.0\Лаба 1.runtimeconfig.json
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\bin\Debug\net9.0\Лаба 1.dll
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\bin\Debug\net9.0\Лаба 1.pdb
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.AssemblyInfoInputs.cache
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.AssemblyInfo.cs
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.csproj.CoreCompileInputs.cache
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.dll
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\refint\Лаба 1.dll
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.pdb
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\Лаба 1.genruntimeconfig.cache
+C:\Users\vanomorodellefake\Desktop\АиСД\Лабы\Лаба 1\obj\Debug\net9.0\ref\Лаба 1.dll
