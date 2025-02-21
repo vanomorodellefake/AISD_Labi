@@ -17,5 +17,34 @@ namespace Zadanie1
             }
             return result;
         }
+        
+        public LList<int> ToInt(string text)
+        {
+            LList<int> result = new LList<int>();
+            int i = 0; string slovo="";
+            while (i < text.Length)
+            {
+                if ((i==text.Length-1) && (text[i] != ','))
+                {
+                    slovo += text[i];
+                    result.Add(Convert.ToInt32(slovo));
+                    i++;
+                }
+                else if (text[i] == ',')
+                {
+                    result.Add(Convert.ToInt32(slovo));
+                    slovo = "";
+                    i++;
+                }
+                else
+                {
+                    slovo += text[i];
+                    i++;
+                }
+            }
+            
+            return result;
+        }
+        
     }
 }

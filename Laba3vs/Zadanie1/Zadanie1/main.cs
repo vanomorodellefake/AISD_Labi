@@ -89,13 +89,13 @@ namespace Zadanie1
                         try
                         {
                             Console.Write("Введите позицию для добавления: ");
-                            int n = Convert.ToInt32(Console.ReadLine());
+                            int nn = Convert.ToInt32(Console.ReadLine());
                             Console.Write("Введите символ для добавления: ");
                             string a = Console.ReadLine();
                             foreach (char x in a)
                             {
-                                llist.AddN(x, n);
-                                n++;
+                                llist.AddN(x, nn);
+                                nn++;
                             }      
                         }
                         catch
@@ -119,6 +119,23 @@ namespace Zadanie1
                         }
                         break;
                     case "5":
+                        //try
+                        //{
+                            Console.Write("Введите номера символов для удаления через запятую: ");
+                            string n = Console.ReadLine();
+                            LList<int> z = stringLList.ToInt(n);
+
+                            foreach (int x in z)
+                            {
+                                if (llist.RemoveN(x)) Console.WriteLine($"Значение на позиции {x} удалено.");
+                                else Console.WriteLine($"Значение на позиции {x} не найдено.");
+                            }
+                            
+                        //}
+                        //catch
+                        //{
+                         //   Console.WriteLine("Произошла ошибка!");
+                        //}
                         break;
                     case "6":
                         try
@@ -132,6 +149,22 @@ namespace Zadanie1
                         }
                         break;
                     case "7":
+                        try
+                        {
+                            Console.Write("Введите символ для поиска: ");
+                            char a = Convert.ToChar(Console.ReadLine());
+                            LList<int> check = llist.Search(a);
+                            foreach (int x in check)
+                            {
+                                Console.Write(x);
+                                Console.Write(", ");
+                            }
+                                
+                        }
+                        catch
+                        {
+                            Console.WriteLine("Произошла ошибка!");
+                        }
                         break;
                     case "8":
                         Console.WriteLine("Ваш список: " + string.Join(", ", llist) + ".");

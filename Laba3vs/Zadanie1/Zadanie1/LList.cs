@@ -33,12 +33,13 @@ namespace Zadanie1
             count++;
         }
 
-        public void AddN(T data, int n)
+        public bool AddN(T data, int n)
         {
+            if (n > count) return false;
             Node<T> node = new Node<T>(data);
             Node<T> current = head;
             Node<T> previous = null;
-            if (n > count) n = count;
+            
             for (int i=1;i<n;i++)
             {
                 previous = current;
@@ -55,8 +56,37 @@ namespace Zadanie1
                 head = node;
             }
             count++;
+            return true;
         }
+        /*
+        public void Sort(LList<int> list)
+        {
+            Node<int> current = head;
+            Node<int> previous = null;
+            for (int a = 1; a <= list.Count; a++)
+                for (int b = 1; b <= list.Count; b++)
+                {
+                    if (current < current.Next)
 
+                }
+        }
+        */
+        public LList<int> Search(T data)
+        {
+            int k = 0;
+            LList<int> result = new LList<int>();
+            Node<T> current = head;
+            while (current != null)
+            {
+                k++;
+                if (current.Data.Equals(data))
+                {
+                    result.Add(k);
+                }
+                current = current.Next;
+            }
+            return result;
+        }
         public bool Remove(T data)
         {
             Node<T> current = head;
@@ -67,7 +97,6 @@ namespace Zadanie1
                 {
                     if (previous != null)
                     {
-
                         previous.Next = current.Next;
            
                         if (current.Next == null)
@@ -75,7 +104,6 @@ namespace Zadanie1
                     }
                     else
                     {
-
                         head = head.Next;
                         if (head == null)
                             tail = null;
@@ -85,6 +113,38 @@ namespace Zadanie1
                 }
                 previous = current;
                 current = current.Next;
+            }
+            return false;
+        }
+
+        public bool RemoveN(int n)
+        {
+            if (n > count) return false;
+            Node<T> current = head;
+            Node<T> previous = null;
+            
+            for (int i = 1; i < n; i++)
+            {
+                previous = current;
+                current = current.Next;
+            }
+
+            if (previous != null)
+            {
+                previous.Next = current.Next;
+
+                if (current.Next == null)
+                    tail = previous;
+                count--;
+                return true;
+            }
+            else
+            {
+                head = head.Next;
+                if (head == null)
+                    tail = null;
+                count--;
+                return true;
             }
             return false;
         }
