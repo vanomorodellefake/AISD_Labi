@@ -58,19 +58,6 @@ namespace Zadanie1
             count++;
             return true;
         }
-        /*
-        public void Sort(LList<int> list)
-        {
-            Node<int> current = head;
-            Node<int> previous = null;
-            for (int a = 1; a <= list.Count; a++)
-                for (int b = 1; b <= list.Count; b++)
-                {
-                    if (current < current.Next)
-
-                }
-        }
-        */
         public LList<int> Search(T data)
         {
             int k = 0;

@@ -119,11 +119,12 @@ namespace Zadanie1
                         }
                         break;
                     case "5":
-                        //try
-                        //{
+                        try
+                        {
                             Console.Write("Введите номера символов для удаления через запятую: ");
                             string n = Console.ReadLine();
                             LList<int> z = stringLList.ToInt(n);
+                            z = stringLList.ToSort(z);
 
                             foreach (int x in z)
                             {
@@ -131,11 +132,11 @@ namespace Zadanie1
                                 else Console.WriteLine($"Значение на позиции {x} не найдено.");
                             }
                             
-                        //}
-                        //catch
-                        //{
-                         //   Console.WriteLine("Произошла ошибка!");
-                        //}
+                        }
+                        catch
+                        {
+                          Console.WriteLine("Произошла ошибка!");
+                        }
                         break;
                     case "6":
                         try

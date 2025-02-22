@@ -45,6 +45,23 @@ namespace Zadanie1
             
             return result;
         }
-        
+        public LList<int> ToSort(LList<int> start)
+        {
+            int k = 1, max = int.MinValue, st = start.Count;
+            LList<int> result = new LList<int>();
+            while (k<=st)
+            {
+                foreach (int x in start)
+                {
+                    if (x > max) max = x;
+                }
+                result.Add(max);
+                while (start.Contains(max))
+                    start.Remove(max);
+                k++;
+                max = int.MinValue;
+            }
+            return result;
+        }
     }
 }
