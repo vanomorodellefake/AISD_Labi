@@ -1,0 +1,7 @@
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\bin\Debug\Zadanie2.exe.config
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\bin\Debug\Zadanie2.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\bin\Debug\Zadanie2.pdb
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.AssemblyReference.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\obj\Debug\Zadanie2.csproj.CoreCompileInputs.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\obj\Debug\Zadanie2.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie2\Zadanie2\obj\Debug\Zadanie2.pdb

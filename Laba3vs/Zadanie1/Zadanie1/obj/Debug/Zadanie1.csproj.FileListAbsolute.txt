@@ -5,3 +5,10 @@ C:\Users\vanomorodellefake\Desktop\Лабы\Laba3vs\Zadanie1\Zadanie1\obj\Debug\
 C:\Users\vanomorodellefake\Desktop\Лабы\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CoreCompileInputs.cache
 C:\Users\vanomorodellefake\Desktop\Лабы\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.exe
 C:\Users\vanomorodellefake\Desktop\Лабы\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\bin\Debug\Zadanie1.exe.config
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\bin\Debug\Zadanie1.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\bin\Debug\Zadanie1.pdb
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.AssemblyReference.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.csproj.CoreCompileInputs.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba3vs\Zadanie1\Zadanie1\obj\Debug\Zadanie1.pdb
