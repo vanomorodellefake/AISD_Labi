@@ -65,6 +65,7 @@ namespace Zadanie1
                         case8();
                         break;
                 }
+                Console.Write("Введите номер команды: ");
                 vvod();
             }
             
@@ -73,10 +74,10 @@ namespace Zadanie1
 
         static void vvod()
         {
-            Console.Write("Введите номер команды: ");
+            //Console.Write("Введите номер команды: ");
             vibor = Console.ReadLine();
         }
-        static void case1()
+        static void case1() // Добавление элемента в конец списка.
         {
             try
             {
@@ -93,7 +94,7 @@ namespace Zadanie1
             }
             
         }
-        static void case2()
+        static void case2() // Добавление элемента в начало списка.
         {
             try
             {
@@ -107,7 +108,7 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case3()
+        static void case3() // Добавление элемента в определенную позицию.
         {
             try
             {
@@ -126,7 +127,7 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case4()
+        static void case4() // Удаление элемента по его значению.
         {
             try
             {
@@ -142,7 +143,7 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case5()
+        static void case5() // Удаление элемента по его номеру в односвязном списке.
         {
             try
             {
@@ -163,7 +164,7 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case6()
+        static void case6() // Очистка списка.
         {
             try
             {
@@ -175,7 +176,7 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case7()
+        static void case7() // Поиска номера элемента в списке.
         {
             try
             {
@@ -194,25 +195,47 @@ namespace Zadanie1
                 Console.WriteLine("Произошла ошибка!");
             }
         }
-        static void case8()
+        static void case8() // Просмотр списка.
         {
-            Console.WriteLine("Ваш список: " + string.Join(", ", llist) + ".");
+            Console.WriteLine("Ваш список: " + string.Join(", ", llist));
         }
         static void start()
         {
-            char last;
+            //char last;
+            int k = 0;
             Console.Write("Введите Ваше предложение, оканчивающееся точкой: ");
             string text = Console.ReadLine(); // Ввод предложения
-            if (text.Length > 0)
-                last = text[text.Length - 1];
-            else
-                last = ' ';
+            if (text == "")
+            {
+                Console.WriteLine("Текст пуст!");
+                start();
+            }
+            while (text[k] != '.')
+            {
+                if (k == text.Length - 1)
+                {
+                    Console.WriteLine("Точка не была найдена!");
+                    llist.Clear();
+                    start();
+                    break;
+                }
+                if (text[k] != ' ')
+                {
+                    llist.Add(text[k]);
+                    k++;
+                }
+                else k++; 
+            }
+            //if (text.Length > 0)
+            //    last = text[text.Length - 1];
+            //else
+            //    last = ' ';
 
-            if ((last != '.') && (last != '?') && (last != '!')) Console.WriteLine("Ваше предложение не оканчивается точкой! Какой нехороший человек.");
-            llist = stringLList.preobrazovatel(text);
+            //if ((last != '.') && (last != '?') && (last != '!')) Console.WriteLine("Ваше предложение не оканчивается точкой! Какой нехороший человек.");
+            //llist = stringLList.preobrazovatel(text);
 
 
-            Console.WriteLine("Ваше предложение, разделённое на символы: " + string.Join(", ", llist) + ".");
+            Console.WriteLine("Ваше предложение, разделённое на символы: " + string.Join(", ", llist));
 
             Console.WriteLine("Теперь Вам доступнен функционал программы для работы с листом, введите число, что будет определять действие. Введите help для демонстрации команд.");
         }
