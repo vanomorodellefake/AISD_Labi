@@ -1,0 +1,7 @@
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\obj\Debug\Zadacha.csproj.AssemblyReference.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\obj\Debug\Zadacha.csproj.CoreCompileInputs.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\bin\Debug\Zadacha.exe.config
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\bin\Debug\Zadacha.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\bin\Debug\Zadacha.pdb
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\obj\Debug\Zadacha.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Zadacha\Zadacha\obj\Debug\Zadacha.pdb
