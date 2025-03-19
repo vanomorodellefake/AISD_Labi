@@ -1,0 +1,7 @@
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\bin\Debug\Zadanie1var1.exe.config
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\bin\Debug\Zadanie1var1.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\bin\Debug\Zadanie1var1.pdb
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\obj\Debug\Zadanie1var1.csproj.AssemblyReference.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\obj\Debug\Zadanie1var1.csproj.CoreCompileInputs.cache
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\obj\Debug\Zadanie1var1.exe
+C:\Users\vanomorodellefake\Desktop\AISD_Labi-main\Laba4vs\Zadanie1var1\Zadanie1var1\obj\Debug\Zadanie1var1.pdb
